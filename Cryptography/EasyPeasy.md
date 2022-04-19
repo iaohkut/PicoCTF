@@ -89,7 +89,7 @@ Vậy nên input là chuỗi các giá trị "\x00" và output nhận được c
 
 Sau đó chúng ta chỉ cần XOR output này với chuỗi hex chúng ta có được ở netcat thì chúng ta đã có được flag.
 
-![2022-04-19_12-50](https://user-images.githubusercontent.com/77691959/164055090-89f85bc0-d2f3-4f03-bb3d-a28543d8348d.png)
+![2022-04-19_13-01](https://user-images.githubusercontent.com/77691959/164056984-d7fcfb1a-995e-44a6-8a05-4e66e2c36104.png)
 
 Commandline tham khảo: 
 ```
