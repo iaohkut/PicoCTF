@@ -91,4 +91,10 @@ Sau đó chúng ta chỉ cần XOR output này với chuỗi hex chúng ta có �
 
 ![2022-04-19_12-50](https://user-images.githubusercontent.com/77691959/164055090-89f85bc0-d2f3-4f03-bb3d-a28543d8348d.png)
 
+Commandline tham khảo: 
+```
+python3 -c "print('\x00'*(50000-32)+'\n'+'\x00'*32)" | nc mercury.picoctf.net 64260
+```
+'\n' ở đây là để nhập 32 kí tự ở lệnh tiếp theo đảm bảo cho hàm encrypt() đã trả về 0.
+
 ### Flag: picoCTF{3a16944dad432717ccc3945d3d96421a}.
