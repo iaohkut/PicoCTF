@@ -1,2 +1,2 @@
-# PicoCTF2022
-Writeup picoCTF2022
+# PicoCTF
+Writeup picoCTF
